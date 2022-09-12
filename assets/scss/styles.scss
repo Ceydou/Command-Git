@@ -40,7 +40,9 @@ body {
 }
 
 header {
+    margin-bottom: 8rem;
     height: 10rem;
+    border-bottom: 1px solid #ddd;
 
     .row {
         height: 100%;
@@ -83,5 +85,27 @@ pre {
 
     .prmt {
         color: $prmt-color;
+    }
+}
+
+footer {
+    margin-top: 8rem;
+    height: 10rem;
+    border-top: 1px solid #ddd;
+
+    .row {
+        height: 100%;
+        align-items: center;
+
+        .col {
+            display: flex;
+            justify-content: space-between;
+            
+            p {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+            }
+        }  
     }
 }

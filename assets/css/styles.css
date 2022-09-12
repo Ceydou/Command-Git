@@ -22,7 +22,9 @@ body {
 }
 
 header {
+  margin-bottom: 8rem;
   height: 10rem;
+  border-bottom: 1px solid #ddd;
 }
 header .row {
   height: 100%;
@@ -61,4 +63,23 @@ pre .cmd {
 }
 pre .prmt {
   color: #31f2cc;
+}
+
+footer {
+  margin-top: 8rem;
+  height: 10rem;
+  border-top: 1px solid #ddd;
+}
+footer .row {
+  height: 100%;
+  align-items: center;
+}
+footer .row .col {
+  display: flex;
+  justify-content: space-between;
+}
+footer .row .col p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }/*# sourceMappingURL=styles.css.map */
