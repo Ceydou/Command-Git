@@ -15,7 +15,7 @@ $cmd-font: 'Inconsolata', monospace;
 $fw-txt: 400;
 $fw-txt-bold: 700;
 
-* {
+*, ::before, ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
